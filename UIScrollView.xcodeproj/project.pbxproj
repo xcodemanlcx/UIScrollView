@@ -19,6 +19,8 @@
 		1877215819C957CC00053FF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1877214019C957CC00053FF4 /* UIKit.framework */; };
 		1877216019C957CC00053FF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1877215E19C957CC00053FF4 /* InfoPlist.strings */; };
 		1877216219C957CC00053FF4 /* UIScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877216119C957CC00053FF4 /* UIScrollViewTests.m */; };
+		1877217019C9585E00053FF4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877216F19C9585E00053FF4 /* BaseViewController.m */; };
+		18FF1A8E1A132E34005BA464 /* UIViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FF1A8D1A132E34005BA464 /* UIViewController1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		1877215D19C957CC00053FF4 /* UIScrollViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIScrollViewTests-Info.plist"; sourceTree = "<group>"; };
 		1877215F19C957CC00053FF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1877216119C957CC00053FF4 /* UIScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewTests.m; sourceTree = "<group>"; };
+		1877216E19C9585E00053FF4 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1877216F19C9585E00053FF4 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		18FF1A8C1A132E34005BA464 /* UIViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewController1.h; sourceTree = "<group>"; };
+		18FF1A8D1A132E34005BA464 /* UIViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewController1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				1877214B19C957CC00053FF4 /* AppDelegate.h */,
 				1877214C19C957CC00053FF4 /* AppDelegate.m */,
+				1877216E19C9585E00053FF4 /* BaseViewController.h */,
+				1877216F19C9585E00053FF4 /* BaseViewController.m */,
+				18FF1A8C1A132E34005BA464 /* UIViewController1.h */,
+				18FF1A8D1A132E34005BA464 /* UIViewController1.m */,
 				1877214E19C957CC00053FF4 /* Images.xcassets */,
 				1877214319C957CC00053FF4 /* Supporting Files */,
 			);
@@ -239,7 +249,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FF1A8E1A132E34005BA464 /* UIViewController1.m in Sources */,
 				1877214D19C957CC00053FF4 /* AppDelegate.m in Sources */,
+				1877217019C9585E00053FF4 /* BaseViewController.m in Sources */,
 				1877214919C957CC00053FF4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +449,7 @@
 				1877216719C957CC00053FF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1877216819C957CC00053FF4 /* Build configuration list for PBXNativeTarget "UIScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +458,7 @@
 				1877216A19C957CC00053FF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
